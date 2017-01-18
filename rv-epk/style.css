@@ -1,0 +1,82 @@
+body {
+  background-image: url();
+  background-color: black;
+}
+@font-face {
+   font-family: exo-medium;
+   src: url('./fonts/Exo_2/Exo2-Medium.ttf');
+   format('opentype');
+   font-weight: 700;
+}
+
+#main-div {
+  width: 100%;
+  min-height: 100vh;
+}
+#logo-header {
+  width: 100%;
+  margin-top: 150px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#logo1 {
+  width: 450px;
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+}
+#header-links {
+  width: 100%;
+  height: 50px;
+  border: 1px solid silver;
+}
+#epk-title {
+  text-align: center;
+  color: white;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-family: exo-medium;
+  font-size: 30px;
+}
+.center-div {
+  margin-top: 250px;
+  border-top: 2px solid rgba(255, 255, 255, .5);
+  border-bottom: 2px solid rgba(255, 255, 255, .5);
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.press-pic {
+  display: flex;
+  width: 60%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.main-content {
+  display: flex;
+  flex-direction: column;
+  min-height: 1000px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.main-width {
+  width: 60%;
+  border-top: 2px solid rgba(255, 255, 255, .5);
+  border-bottom: 2px solid rgba(255, 255, 255, .5);
+}
+.double-div {
+ display: flex;
+ flex-direction: row;
+ width: 100%;
+ min-height: 500px;
+}
+.half-row {
+  width: 100%;
+  border: 1px solid silver;
+}
+.half-header {
+  text-align: center;
+  color: white;
+}
