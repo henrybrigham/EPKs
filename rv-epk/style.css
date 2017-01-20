@@ -4,7 +4,7 @@ body {
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
-  /*background-color: black;*/
+  margin: 0;
 }
 @font-face {
    font-family: exo-medium;
@@ -12,21 +12,31 @@ body {
    format('opentype');
    font-weight: 700;
 }
+@font-face {
+   font-family: exo-light;
+   src: url('./fonts/Exo_2/Exo2-Light.ttf');
+   format('opentype');
+   font-weight: 700;
+}
 
 #main-div {
   width: 100%;
-  min-height: 100vh;
+  height: 100%;
+  background-color:rgba(0, 0, 0, 0.5);
 }
 #logo-header {
   width: 100%;
   height: 550px;
-  display: flex;
+  display: -webkit-flex;
   justify-content: center;
-  align-items: center;;
+  align-items: center;
+  display: flex;
+  -webkit-justify-content: center;
+  -webkit-align-items: center;
 }
 #logo1 {
   width: 550px;
-  display: flex;
+  display: -webkit-flex;
   margin-right: auto;
   margin-left: auto;
 }
@@ -45,7 +55,7 @@ body {
 }
 .center-div {
   border-top: 2px solid rgba(255, 255, 255, .5);
-  display: flex;
+  display: -webkit-flex;
   height: 99px;
   justify-content: center;
   align-items: center;
@@ -62,18 +72,18 @@ body {
 }
 
 .press-pic {
-  display: flex;
+  display: -webkit-flex;
   width: 100%;
   margin-top: 50px;
   margin-bottom: 50px;
 }
 .main-content {
-  display: flex;
-  flex-direction: column;
+  display: -webkit-flex;
+  -webkit-flex-direction: column;
   min-height: 1000px;
   margin-right: auto;
   margin-left: auto;
-  background-color:rgba(0, 0, 0, 0.5);
+  font-family: exo-light;
 }
 .main-width {
   width: 60%;
@@ -81,31 +91,46 @@ body {
   border-bottom: 2px solid rgba(255, 255, 255, .5);
 }
 .double-div {
- display: flex;
- flex-direction: row;
- width: 100%;
- min-height: 500px;
+   display: -webkit-flex;
+   -webkit-flex-direction: row;
+   width: 100%;
+   min-height: 500px;
+   display: flex;
+   flex-direction: row;
+   -webkit-height: 350px;
 }
 .double-div-3 {
+ display: -webkit-flex;
+ -webkit-flex-direction: row;
+ width: 100%;
+ height: 485px;
  display: flex;
  flex-direction: row;
- width: 100%;
- height: 365px;
 }
 .double-div-2 {
- display: flex;
- flex-direction: row;
+ display: -webkit-flex;
+ -webkit-flex-direction: row;
  width: 100%;
  margin-bottom: 50px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
 }
 .double-div-4 {
- display: flex;
- flex-direction: row;
+ display: -webkit-flex;
+ -webkit-flex-direction: row;
  width: 100%;
  height: 400px;
+ display: flex;
+flex-direction: row;
 }
-.half-row-1 {
-  width: 50%;
+.double-div-album {
+   display: -webkit-flex;
+   -webkit-flex-direction: row;
+   width: 100%;
+   height: 470px;
+   display: flex;
+  flex-direction: row;
 }
 .half-row-2 {
   width: 50%;
@@ -132,8 +157,8 @@ body {
 }
 .half-header {
   margin: 0;
-  display: flex;
-  flex-direction: column;
+  display: -webkit-flex;
+  -webkit-flex-direction: column;
 }
 .half-h4 {
   color: white;
@@ -149,20 +174,20 @@ body {
   width: 90%;
   margin-left: auto;
   margin-right: auto;
-  display: flex;
+  display: -webkit-flex;
 }
 .song2 {
   height: 45.5%;
   width: 90%;
   margin-left: auto;
   margin-right: auto;
-  display: flex;
+  display: -webkit-flex;
 }
 .song3 {
   width: 90%;
   margin-left: auto;
   margin-right: auto;
-  display: flex;
+  display: -webkit-flex;
   margin-top: 64px;
   height: 255px;
 }
@@ -171,16 +196,16 @@ body {
   width: 90%;
   margin-left: auto;
   margin-right: auto;
-  display: flex;
+  display: -webkit-flex;
 }
 .big-bullet {
-  display: flex;
-  flex-direction: column;
+  display: -webkit-flex;
+  -webkit-flex-direction: column;
   width: 100%;
 }
 .bullet-div {
-  display: flex;
-  flex-direction: row;
+  display: -webkit-flex;
+  -webkit-flex-direction: row;
 }
 .show {
   color: white;
@@ -199,6 +224,13 @@ body {
   color: white;
   font-size: 16.8px;
 }
+.press-kit-dl {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  display: webkit-flex;
+  webkit-flex-direction: column;
+}
 .download {
   margin-left: auto;
   margin-right: auto;
@@ -210,34 +242,78 @@ body {
 .button-text {
   color: silver;
   font-size: 20px;
+  text-align: center;
 }
 .video {
   margin-top: 55px;
   margin-left: auto;
   margin-right: auto;
-  display: flex;
+  display: -webkit-flex;
 }
 .social-div {
   margin-left: auto;
   margin-right: auto;
-  height: 50px;
+  height: 150px;
   width: 60%;
   align-items: center;
-  display: flex;
-  flex-direction: row;
+  display: -webkit-flex;
+  -webkit-flex-direction: row;
   justify-content: center;
-  background-color:rgba(0, 0, 0, 0.5);
-
+  display: flex;
+  -webkit-justify-content: center;
+}
+.social-div-1 {
+  margin-top: 0px;
+  padding-top: 10px;
+  margin-left: auto;
+  height: 50px;
+  width: 20%;
+  align-items: center;
+  display: -webkit-flex;
+  -webkit-flex-direction: row;
+  justify-content: center;
+  display: flex;
+  -webkit-justify-content: center;
 }
 .icon {
-  height: 50px;
-  width: 50px;
   color: white;
-
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
 }
 .icon-div {
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 30px;
   height: 50px;
   width: 50px;
+  display: -webkit-flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid white;
+  display: flex;
+  -webkit-justify-content: center;
+  -webkit-align-items: center;
+
+}
+.social-link {
+  color: rgba(0, 0, 0, 0);
+}
+.icon-div:hover {
+  background: linear-gradient(to right, #64549A, #08A975);;
+}
+.wysidio {
+  height: 50px;
+  width: 50px;
+}
+.icon-logo {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.button {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @media (max-width: 1300px) {
@@ -252,33 +328,36 @@ body {
   .double-div-4 {
     height: 500px;
   }
-  .double-div-3 {
-    height: 435px;
-  }
   .double-div {
-    flex-direction: column;
+    -webkit-flex-direction: column;
     align-items: center;
+    display: flex;
+    flex-direction: column;
   }
   .double-div-2 {
-    flex-direction: column;
+    direction: column;
   }
   .double-div-3 {
-    flex-direction: column;
+    -webkit-flex-direction: column;
     height: 100%;
-    display: flex;
+    display: -webkit-flex;
     align-items: center;
     margin-bottom: 25px;
+    display: flex;
+    flex-direction: column;
   }
   .double-div-4 {
-    flex-direction: column;
+    -webkit-flex-direction: column;
     align-items: center;
     height: 100%;
+    display: flex;
+    flex-direction: column;
   }
   .half-row-1 {
     width: 80%;
     align-items: center;
-    display: flex;
-    flex-direction: column;
+    display: -webkit-flex;
+    -webkit-flex-direction: column;
     margin-top: 30px;
   }
   .half-row-2 {
@@ -286,14 +365,14 @@ body {
   }
   .half-row-3 {
     width: 80%;
-    display: flex;
-    flex-direction: column;
+    display: -webkit-flex;
+    -webkit-flex-direction: column;
     margin-top: 40px;
   }
   .half-row-5 {
     width: 80%;
-    display: flex;
-    flex-direction: column;
+    display: -webkit-flex;
+    -webkit-flex-direction: column;
     margin-top: 5px;
   }
   .song1 {
@@ -311,6 +390,41 @@ body {
   }
   .video {
     margin-top: 25px;
+  }
+  .social-div-1 {
+    margin-right: 20px;
+  }
+}
+@media (max-width: 1200px) {
+  .social-div-1 {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .main-width {
+    margin-top: 10px;
+  }
+  .half-row-1 {
+    width: 90%;
+  }
+  .double-div {
+    height: 850px;
+  }
+  .double-div-3 {
+    height: 760px;
+  }
+  .double-div-4 {
+    height: 700px;
+  }
+}
+@media (max-width: 1000px) {
+  .double-div {
+    height: 850px;
+  }
+  .double-div-3 {
+    height: 760px;
+  }
+  .double-div-4 {
+    height: 750px;
   }
 }
 @media (max-width: 700px) {
@@ -338,8 +452,13 @@ body {
 }
 @media (max-width: 650px) {
   .download {
-    width: 90%;
+    width: 80%;
     height: 50px;
+  }
+  .press-kit-dl {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
   }
   .button-text {
     font-size: 13px;
@@ -369,5 +488,13 @@ body {
   }
   #epk-title {
     font-size: 25px;
+  }
+  .icon-div {
+    width: 45px;
+    height: 45px;
+  }
+  .wysidio {
+    width: 45px;
+    height: 45px;
   }
 }
