@@ -1,0 +1,501 @@
+body {
+  background-image: url("./images/SoloBio.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  margin: 0;
+}
+@font-face {
+   font-family: exo-medium;
+   src: url('./fonts/Exo_2/Exo2-Medium.ttf');
+   format('opentype');
+   font-weight: 700;
+}
+@font-face {
+   font-family: exo-light;
+   src: url('./fonts/Exo_2/Exo2-Light.ttf');
+   format('opentype');
+   font-weight: 700;
+}
+
+#main-div {
+  width: 100%;
+  height: 100%;
+  background-color:rgba(0, 0, 0, 0.7);
+}
+#logo-header {
+  width: 100%;
+  height: 550px;
+  display: -webkit-flex;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  -webkit-justify-content: center;
+  -webkit-align-items: center;
+}
+#logo1 {
+  width: 1000px;
+  display: -webkit-flex;
+  margin-right: auto;
+  margin-left: auto;
+}
+#header-links {
+  width: 100%;
+  height: 50px;
+  border: 1px solid silver;
+}
+#epk-title {
+  text-align: center;
+  color: white;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-family: exo-medium;
+  font-size: 30px;
+}
+.center-div {
+  border-top: 2px solid rgba(255, 255, 255, .5);
+  display: -webkit-flex;
+  height: 99px;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 2px solid rgba(255, 255, 255, .5);
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+#press-div {
+  border-bottom: 2px solid rgba(255, 255, 255, .5);
+  width: 60%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.press-pic {
+  display: -webkit-flex;
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.main-content {
+  display: -webkit-flex;
+  -webkit-flex-direction: column;
+  min-height: 1000px;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: exo-light;
+}
+.main-width {
+  width: 60%;
+  margin-top: 50px;
+  border-bottom: 2px solid rgba(255, 255, 255, .5);
+}
+.double-div {
+   display: -webkit-flex;
+   -webkit-flex-direction: row;
+   width: 100%;
+   min-height: 500px;
+   display: flex;
+   flex-direction: row;
+   -webkit-height: 350px;
+}
+.double-div-3 {
+ display: -webkit-flex;
+ -webkit-flex-direction: row;
+ width: 100%;
+ height: 485px;
+ display: flex;
+ flex-direction: row;
+}
+.double-div-2 {
+ display: -webkit-flex;
+ -webkit-flex-direction: row;
+ width: 100%;
+ margin-bottom: 50px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.double-div-4 {
+ display: -webkit-flex;
+ -webkit-flex-direction: row;
+ width: 100%;
+ height: 400px;
+ display: flex;
+flex-direction: row;
+}
+.double-div-album {
+   display: -webkit-flex;
+   -webkit-flex-direction: row;
+   width: 100%;
+   height: 470px;
+   display: flex;
+  flex-direction: row;
+}
+.half-row-2 {
+  width: 50%;
+}
+.half-row-hide {
+  width: 50%;
+}
+.half-row-3 {
+  width: 100%;
+  display: none;
+}
+.half-row-5 {
+  width: 100%;
+  display: none;
+}
+
+.half-h1 {
+  text-align: center;
+  color: white;
+  margin-top: 15px;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+.half-header {
+  margin: 0;
+  display: -webkit-flex;
+  -webkit-flex-direction: column;
+}
+.half-h4 {
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 0;
+  text-align: center;
+}
+.song1 {
+  height: 45.5%;
+  margin-bottom: 40px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  display: -webkit-flex;
+}
+.song2 {
+  height: 45.5%;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  display: -webkit-flex;
+}
+.song3 {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  display: -webkit-flex;
+  margin-top: 64px;
+  height: 255px;
+}
+.song4 {
+  height: 410px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  display: -webkit-flex;
+}
+.big-bullet {
+  display: -webkit-flex;
+  -webkit-flex-direction: column;
+  width: 100%;
+}
+.bullet-div {
+  display: -webkit-flex;
+  -webkit-flex-direction: row;
+}
+.show {
+  color: white;
+}
+.show-location {
+  color: white;
+}
+.list {
+  color: white;
+  font-size: 20px;
+}
+.list-item {
+  margin-bottom: 5px;
+}
+.list-2 {
+  color: white;
+  font-size: 16.8px;
+}
+.press-kit-dl {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  display: webkit-flex;
+  webkit-flex-direction: column;
+  color: rgba(0, 0, 0, 0);
+}
+.download {
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  height: 80px;
+  border-radius: 8px;
+  background: linear-gradient(to right, #64549A, #08A975);
+}
+.button-text {
+  color: silver;
+  font-size: 20px;
+  text-align: center;
+}
+.video {
+  margin-top: 55px;
+  margin-left: auto;
+  margin-right: auto;
+  display: -webkit-flex;
+}
+.social-div {
+  margin-left: auto;
+  margin-right: auto;
+  height: 150px;
+  width: 60%;
+  align-items: center;
+  display: -webkit-flex;
+  -webkit-flex-direction: row;
+  justify-content: center;
+  display: flex;
+  -webkit-justify-content: center;
+}
+.social-div-1 {
+  margin-top: 0px;
+  padding-top: 10px;
+  margin-left: auto;
+  height: 50px;
+  width: 20%;
+  align-items: center;
+  display: -webkit-flex;
+  -webkit-flex-direction: row;
+  justify-content: center;
+  display: flex;
+  -webkit-justify-content: center;
+}
+.icon {
+  color: white;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+}
+.icon-div {
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 30px;
+  height: 50px;
+  width: 50px;
+  display: -webkit-flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid white;
+  display: flex;
+  -webkit-justify-content: center;
+  -webkit-align-items: center;
+
+}
+.social-link {
+  color: rgba(0, 0, 0, 0);
+}
+.icon-div:hover {
+  background: linear-gradient(to right, #64549A, #08A975);;
+}
+.wysidio {
+  height: 50px;
+  width: 50px;
+}
+.icon-logo {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.button {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width: 1300px) {
+  .double-div-4 {
+    height: 500px;
+  }
+  .double-div-3 {
+    height: 435px;
+  }
+}
+@media (max-width: 1250px) {
+  .double-div-4 {
+    height: 500px;
+  }
+  .double-div {
+    -webkit-flex-direction: column;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .double-div-2 {
+    direction: column;
+  }
+  .double-div-3 {
+    -webkit-flex-direction: column;
+    height: 100%;
+    display: -webkit-flex;
+    align-items: center;
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+  }
+  .double-div-4 {
+    -webkit-flex-direction: column;
+    align-items: center;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .half-row-1 {
+    width: 80%;
+    align-items: center;
+    display: -webkit-flex;
+    -webkit-flex-direction: column;
+    margin-top: 30px;
+  }
+  .half-row-2 {
+    width: 80%
+  }
+  .half-row-3 {
+    width: 80%;
+    display: -webkit-flex;
+    -webkit-flex-direction: column;
+    margin-top: 40px;
+  }
+  .half-row-5 {
+    width: 80%;
+    display: -webkit-flex;
+    -webkit-flex-direction: column;
+    margin-top: 5px;
+  }
+  .song1 {
+    height: 250px;
+  }
+  .song2 {
+    height: 250px;
+  }
+  .song3 {
+    height: 250px;
+    margin-top: 27px;
+  }
+  .half-row-hide {
+    display: none;
+  }
+  .video {
+    margin-top: 25px;
+  }
+  .social-div-1 {
+    margin-right: 20px;
+  }
+}
+@media (max-width: 1200px) {
+  .social-div-1 {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .main-width {
+    margin-top: 10px;
+  }
+  .half-row-1 {
+    width: 90%;
+  }
+  .double-div {
+    height: 850px;
+  }
+  .double-div-3 {
+    height: 760px;
+  }
+  .double-div-4 {
+    height: 700px;
+  }
+}
+@media (max-width: 1000px) {
+  .double-div {
+    height: 850px;
+  }
+  .double-div-3 {
+    height: 760px;
+  }
+  .double-div-4 {
+    height: 750px;
+  }
+}
+@media (max-width: 700px) {
+  .center-div {
+    width: 90%;
+  }
+  #press-div {
+    width: 90%;
+  }
+  .main-width {
+    width: 90%;
+  }
+  #logo1 {
+    width: 150%;
+  }
+  #logo-header {
+    height: 350px;
+  }
+  .download {
+    width: 90%;
+  }
+  .button-text {
+    font-size: 16px;
+  }
+}
+@media (max-width: 650px) {
+  .download {
+    width: 80%;
+    height: 50px;
+  }
+  .press-kit-dl {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .button-text {
+    font-size: 13px;
+  }
+  .video {
+    height: 200px;
+  }
+  .song1 {
+    height: 200px;
+  }
+  .song2 {
+    height: 200px
+  }
+  .song3 {
+    height: 200px
+  }
+}
+@media (max-width: 450px) {
+  .song1 {
+    height: 150px;
+  }
+  .song2 {
+    height: 150px
+  }
+  .song3 {
+    height: 150px
+  }
+  #epk-title {
+    font-size: 25px;
+  }
+  .icon-div {
+    width: 45px;
+    height: 45px;
+  }
+  .wysidio {
+    width: 45px;
+    height: 45px;
+  }
+}
