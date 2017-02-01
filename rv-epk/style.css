@@ -186,6 +186,13 @@ flex-direction: row;
   margin: 0;
   display: -webkit-flex;
   -webkit-flex-direction: column;
+  margin-top: 33px;
+}
+.half-header-1 {
+  margin: 0;
+  display: -webkit-flex;
+  -webkit-flex-direction: column;
+  margin-top: 38px;
 }
 .half-h4 {
   color: white;
@@ -269,6 +276,9 @@ flex-direction: row;
   border-radius: 8px;
   background: linear-gradient(to right, #64549A, #08A975);
 }
+.download:hover {
+  background: white;
+}
 .button-text {
   color: silver;
   font-size: 20px;
@@ -335,7 +345,7 @@ flex-direction: row;
   background: linear-gradient(to right, #64549A, #08A975);;
 }
 .wysidio {
-  height: 50px;
+  height: auto;
   width: 50px;
 }
 .icon-logo {
@@ -479,6 +489,12 @@ flex-direction: row;
   .double-div-4 {
     height: 700px;
     margin-top: 40px;
+  }
+  .half-header {
+    margin:0;
+  }
+  .half-header-1 {
+    margin: 0;
   }
 }
 @media (max-width: 750px) {
