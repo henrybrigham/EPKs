@@ -148,6 +148,7 @@ flex-direction: row;
 }
 .bio-header {
   color: white;
+  font-size: 35px;
 }
 .bio-content {
   font-size: 20px;
@@ -183,12 +184,28 @@ flex-direction: row;
   margin-bottom: auto;
   margin-left: auto;
   margin-right: auto;
+  font-size: 40px;
+}
+.half-h2 {
+  text-align: center;
+  color: white;
+  margin-top: 0;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 35px;
 }
 .half-header {
   margin: 0;
   display: -webkit-flex;
   -webkit-flex-direction: column;
   margin-top: 42px;
+}
+.half-header-2 {
+  margin: 0;
+  display: -webkit-flex;
+  -webkit-flex-direction: column;
+  margin-top: 0;
 }
 .half-h4 {
   color: white;
@@ -197,6 +214,7 @@ flex-direction: row;
   margin-top: 15px;
   margin-bottom: 0;
   text-align: center;
+  font-size: 35px;
 }
 .song1 {
   height: 250px;
@@ -305,7 +323,7 @@ flex-direction: row;
 .social-div {
   margin-left: auto;
   margin-right: auto;
-  height: 150px;
+  height: 80px;
   width: 310px;
   align-items: center;
   display: -webkit-flex;
@@ -368,7 +386,29 @@ flex-direction: row;
   margin-left: auto;
   margin-right: auto;
 }
-
+.wysidio-div {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: row;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.footer-text {
+  color: white;
+  font-size: 20px;
+  font-family: exo-medium;
+  margin: 0;
+}
+.wysidio-link {
+  margin-left: 5px;
+  text-decoration: none;
+  color: #367F87;
+  font-size: 20px;
+  font-family: exo-medium;
+}
 
 @media (max-width: 1300px) {
   .double-div-4 {
@@ -513,7 +553,7 @@ flex-direction: row;
     margin-top: 20px;
   }
   .double-div-3 {
-    height: 480px;
+    height: 520px;
     margin-bottom: 0;
   }
   .half-row-4 {
@@ -522,10 +562,23 @@ flex-direction: row;
   .list-2 {
     font-size: 20px;
   }
+  .half-h4 {
+    font-size: 32px;
+    margin-top: 0px;
+  }
 }
 @media (max-width: 770px) {
   .double-div-3 {
     height: 540px;
+  }
+  .half-h1 {
+    font-size: 35px;
+  }
+  .half-h4 {
+    font-size: 35px;
+  }
+  .double-div-4 {
+    height: 650px;
   }
 }
 @media (max-width: 750px) {
@@ -653,10 +706,13 @@ flex-direction: row;
   .half-row-1 {
     margin-top: 0;
   }
+  .video {
+    margin-top: 0;
+  }
 }
 @media (max-width: 420px) {
   .double-div {
-    height: 645px;
+    height: 655px;
   }
   .half-header {
     margin-top: 20px;
@@ -666,10 +722,11 @@ flex-direction: row;
   }
   .double-div-3 {
     height: 390px;
+    margin-top: 20px;
   }
   .half-row-1 {
-    margin-top: 20px;
-    height: 240px;
+    margin-top: 50px;
+    height: 220px;
   }
   .half-row-4 {
     margin-top: 20px;
@@ -677,22 +734,47 @@ flex-direction: row;
   .list-2 {
     font-size: 15px;
   }
+  .half-h1 {
+    font-size: 25px;
+  }
+  .half-h4 {
+    font-size: 25px;
+  }
+  .half-h2 {
+    font-size: 25px;
+  }
+  .bio-header {
+    margin-top: 0;
+  }
 }
 @media (max-width: 380px) {
   .half-row-3 {
     height: 350px;
   }
   .half-row-1 {
-    height: 280px;
+    height: 210px;
   }
   .double-div {
-    height: 670px;
+    height: 600px;
   }
   .half-row-2 {
     height: 200px;
   }
   .double-div-4 {
-    margin-top: 10px;
+    margin-top: 0;
+    height: 440px;
+  }
+  .double-div-3 {
+    height: 380px;
+  }
+  .list {
+    font-size: 13px;
+  }
+  .video {
+    margin-top: 0;
+  }
+  .half-row-4 {
+    margin-top: 0;
   }
 }
 @media (max-width: 340px) {
@@ -700,9 +782,24 @@ flex-direction: row;
     height: 330px;
   }
   .double-div {
-    height: 720px;
+    height: 680px;
   }
   .list-2 {
     font-size: 14px;
+  }
+  .half-h1 {
+    font-size: 20px;
+  }
+  .half-h4 {
+    font-size: 20px;
+  }
+  .double-div-4 {
+    height: 420px;
+  }
+  .half-h2 {
+    font-size: 20px;
+  }
+  .double-div-3 {
+    height: 350px;
   }
 }
